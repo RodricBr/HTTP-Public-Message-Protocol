@@ -31,14 +31,14 @@ gcc HPMP-Server.c -o HPMP-Server
 
 ## Examples:
 - Executing Server and showing log contents:
-<img width="605" height="123" alt="image" src="https://github.com/user-attachments/assets/2ab70baa-96ff-467c-be51-8802d3a4c0e4" />
-<img width="667" height="83" alt="image" src="https://github.com/user-attachments/assets/418e3721-8235-4a7a-ae94-f5a55c02caf7" />
+<img width="605" height="123" alt="image" src=".img/server.png" />
+<img width="667" height="83" alt="image" src=".img/log.png" />
 
 - HTTP Sender:
-<img width="653" height="566" alt="image" src="https://github.com/user-attachments/assets/c58bf931-ef46-4283-bbf9-51c61214899f" />
+<img width="653" height="566" alt="image" src=".img/http.png" />
 
 - Sending messages via CLI:
-<img width="554" height="45" alt="image" src="https://github.com/user-attachments/assets/c29f9283-10de-4cf8-9fd9-40d9f7b046ed" />
+<img width="554" height="45" alt="image" src=".img/cli.png" />
 
 
 
