@@ -19,19 +19,19 @@ int main(int argc, char *argv[]) {
   struct sockaddr_in serv_addr;
 
   if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0) {
-    perror("[x] ERROR: Socket creation error");
+    perror("Socket creation error");
     return 1;
   }
   serv_addr.sin_family = AF_INET;
   serv_addr.sin_port = htons(PORT);
 
   if (inet_pton(AF_INET, server_ip, &serv_addr.sin_addr) <= 0) {
-    perror("[x] ERROR: Invalid address / Address not supported");
+    perror("Invalid address / Address not supported");
     return 1;
   }
 
   if (connect(sock, (struct sockaddr *)&serv_addr, sizeof(serv_addr)) < 0) {
-    perror("[x] ERROR: Connection Failed");
+    perror("Connection Failed");
     return 1;
   }
 
